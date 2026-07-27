@@ -1,0 +1,372 @@
+<!doctype html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="youtube-logo">
+        <button style="border: none; background: none; cursor: pointer">
+          <img
+            src="thumbnail/hamburger-menu.svg"
+            style="height: 22px; flex: 1; margin-right: 10px; margin-left: 3px"
+          />
+        </button>
+        <button style="border: none; background: none; cursor: pointer">
+          <img src="thumbnail/youtube-logo.svg" style="height: 21px; flex: 1" />
+        </button>
+      </div>
+
+      <div class="search">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-image" src="thumbnail/search.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="mic">
+          <img src="thumbnail/voice-search-icon.svg" />
+          <div class="tooltip">Search with ur voice</div>
+        </button>
+      </div>
+
+      <div class="navigation">
+        <div class="upload-icon">
+          <button class="right-section-button">
+            <img src="thumbnail/upload.svg" />
+          </button>
+          <div class="tooltip">Upload</div>
+        </div>
+
+        <div class="upload-icon">
+          <button class="right-section-button">
+            <img src="thumbnail/youtube-apps.svg" />
+          </button>
+          <div class="tooltip">Application</div>
+        </div>
+
+        <div class="upload-icon">
+          <button class="right-section-button">
+            <img src="thumbnail/notifications.svg" />
+          </button>
+          <div class="count">3</div>
+          <div class="notification-count"></div>
+          <div class="tooltip">Notification</div>
+        </div>
+
+        <div class="upload-icon">
+          <button class="right-section-button">
+            <img class="my-profile" src="thumbnail/my-channel.jpeg" />
+          </button>
+          <div class="tooltip">My Profile</div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="side-bar">
+      <div class="session-sidebar">
+        <img class="image-sidebar" src="thumbnail/home.svg" alt="" />
+        <div class="text-sidebar">Home</div>
+      </div>
+
+      <div class="session-sidebar">
+        <img class="image-sidebar" src="thumbnail/explore.svg" alt="" />
+        <div class="text-sidebar">Explore</div>
+      </div>
+
+      <div class="session-sidebar">
+        <img class="image-sidebar" src="thumbnail/subscriptions.svg" alt="" />
+        <div class="text-sidebar">
+          Subscriptions
+        </div>
+      </div>
+
+      <div class="session-sidebar">
+        <img class="image-sidebar" src="thumbnail/originals.svg" alt="" />
+        <div class="text-sidebar">Originals</div>
+      </div>
+
+      <div class="session-sidebar">
+        <img class="image-sidebar" src="thumbnail/youtube-music.svg" alt="" />
+        <div class="text-sidebar">Youtube Music</div>
+      </div>
+
+      <div class="session-sidebar">
+        <img class="image-sidebar" src="thumbnail/library.svg" alt="" />
+        <div class="text-sidebar">Library</div>
+      </div>
+    </nav>
+
+
+
+    
+    <main>
+      <section class="video-grup">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnail/thumbnail-1.webp" />
+            <div class="time">14:20</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile" src="thumbnail/channel-1.jpeg" alt="" />
+              <div class="tooltip-channel">
+                <div>
+                  <img class="image-tooltip" src="thumbnail/channel-1.jpeg" />
+                </div>
+                <div>
+                  <div class="author-tooltip">Marques Brownlee</div>
+                  <div class="subscriber-count">15 M Subscriber</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="text">
+              <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="channel-stats">3.4M views &#183; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnail/thumbnail-2.webp" />
+            <div class="time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile" src="thumbnail/channel-2 (1).jpeg" alt="" />
+              <div class="tooltip-channel">
+                <div>
+                  <img
+                    class="image-tooltip"
+                    src="thumbnail/channel-2 (1).jpeg"
+                  />
+                </div>
+                <div>
+                  <div class="author-tooltip">Markiplier</div>
+                  <div class="subscriber-count">19 M subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <p class="video-title">Try Not To Laugh Challenge #9</p>
+              <p class="channel-name">Markiplier</p>
+              <p class="channel-stats">19M views · 4 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnail/thumbnail-3.webp" />
+            <div class="time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile" src="thumbnail/channel-3.jpeg" alt="" />
+              <div class="tooltip-channel">
+                <div>
+                  <img class="image-tooltip" src="thumbnail/channel-3.jpeg" />
+                </div>
+                <div>
+                  <div class="author-tooltip">SSSniperWolf</div>
+                  <div class="subscriber-count">12 M subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <p class="video-title">
+                Crazy Tik Toks Taken Moments Before DISASTER
+              </p>
+              <p class="channel-name">SSSniperWolfwnlee</p>
+              <p class="channel-stats">12M views · 1 year agoo</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnail/thumbnail-4.webp" />
+            <div class="time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile" src="thumbnail/channel-4.jpeg" alt="" />
+              <div class="tooltip-channel">
+                <div>
+                  <img class="image-tooltip" src="thumbnail/channel-4.jpeg" />
+                </div>
+                <div>
+                  <div class="author-tooltip">Veritasium</div>
+                  <div class="subscriber-count">18 M subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <p class="video-title">
+                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+              </p>
+              <p class="channel-name">Veritasium</p>
+              <p class="channel-stats">18M views · 4 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnail/thumbnail-5.webp" />
+            <div class="time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile" src="thumbnail/channel-5.jpeg" alt="" />
+              <div class="tooltip-channel">
+                <div>
+                  <img class="image-tooltip" src="thumbnail/channel-5.jpeg" />
+                </div>
+                <div>
+                  <div class="author-tooltip">CS Dojo</div>
+                  <div class="subscriberCount">519 K subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <p class="video-title">
+                Kadane's Algorithm to Maximum Sum Subarray Problem
+              </p>
+              <p class="channel-name">CS Dojo</p>
+              <p class="channel-stats">519K views · 5 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnail/thumbnail-6.webp" />
+            <div class="time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile" src="thumbnail/channel-6.jpeg" alt="" />
+              <div class="tooltip-channel">
+                <div>
+                  <img class="image-tooltip" src="thumbnail/channel-6.jpeg" />
+                </div>
+                <div>
+                  <div class="author-tooltip">MrBeast</div>
+                  <div class="subscriber-count">141 M subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <p class="video-title">
+                Anything You Can Fit In The Circle I’ll Pay For
+              </p>
+              <p class="channel-name">MrBeast</p>
+              <p class="channel-stats">141M views · 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnail/thumbnail-7.webp" />
+            <div class="time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile" src="thumbnail/channel-7.jpeg" alt="" />
+              <div class="tooltip-channel">
+                <div>
+                  <img class="image-tooltip" src="thumbnail/channel-7.jpeg" />
+                </div>
+                <div>
+                  <div class="author-tooltip">RealLifeLore</div>
+                  <div class="subscriber-count">6.6 M subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <p class="video-title">Why Planes Don't Fly Over Tibet</p>
+              <p class="channel-name">RealLifeLore</p>
+              <p class="channel-stats">6.6M views · 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnail/thumbnail-8.webp" />
+            <div class="time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile" src="thumbnail/channel-8.jpeg" alt="" />
+              <div class="tooltip-channel">
+                <div>
+                  <img class="image-tooltip" src="thumbnail/channel-8.jpeg" />
+                </div>
+                <div>
+                  <div class="author-tooltip">Tech Vision</div>
+                  <div class="subscriber-count">3.7 M subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <p class="video-title">
+                Try Not To Laugh Challenge #Inside The World's Biggest Passenger
+                Plane
+              </p>
+              <p class="channel-name">Tech Vision</p>
+              <p class="channel-stats">3.7M views · 10 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnail/thumbnail-1.webp" />
+            <div class="time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile" src="thumbnail/channel-1.jpeg" alt="" />
+              <div class="tooltip-channel">
+                <div>
+                  <img class="image-tooltip" src="thumbnail/channel-1.jpeg" />
+                </div>
+                <div>
+                  <div class="author-tooltip">Marques Brownlee</div>
+                  <div class="subscriber-count">15 M subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="channel-stats">3.4M views &#183; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
